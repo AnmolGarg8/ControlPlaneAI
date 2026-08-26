@@ -274,7 +274,10 @@ def color_decision(val):
 
 
 st.dataframe(
-    ledger.style.applymap(color_decision, subset=["Decision"]),
+    ledger.style.applymap(color_decision, subset=["Decision"]).format({
+        "Performance": "{:.1f}", "Cost": "{:.1f}", "Responsibility": "{:.1f}",
+        "Composite": "{:.1f}", "Confidence %": "{:.0f}",
+    }),
     use_container_width=True, height=350,
 )
 
