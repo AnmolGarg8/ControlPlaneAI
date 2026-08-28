@@ -1,3 +1,23 @@
+# ControlPlane.ai — Round 2 Submission (Accenture Innovation Challenge 2026)
+
+**Team:** Anmol Garg (solo) · B.Tech AI & Data Science, VIPS Delhi (GGSIPU)
+**Problem Track:** ControlPlane.ai
+
+| Deliverable | Where |
+|---|---|
+| Working Prototype (this repo) | `controlplane_app.py` — `streamlit run controlplane_app.py` |
+| Detailed Business Proposal (PDF + PPT) | Submitted separately on Unstop; problem framing, business case, roadmap, and risks |
+| Prototype Demo Video | Submitted separately on Unstop; walks through the live dashboard, including all three risk detectors catching injected test cases |
+| Round 1 Concept (for reference) | See `README_ADDITION.md` below for the Round 2 architecture recap |
+
+The prototype below builds directly on **AIRAVAT XDR** (the network cyber-defense
+system this repo started as) — same underlying anomaly-detection approach,
+re-pointed at enterprise AI response streams instead of network telemetry. See the
+"ControlPlane.ai — Round 2 Extension" section further down for the full technical
+writeup and the mapping between this prototype and the Round 2 brief's requirements.
+
+---
+
 # AI Adaptive XDR – Civic Cyber Shield
 
 ## Municipal Extended Detection & Response System
